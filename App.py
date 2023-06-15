@@ -3,6 +3,7 @@ import time
 
 st.title("Analisis de Ethereum addresses")
 
+st.text('Address de prueba: 0x270963D9085E924Cbc98085859D0d9532aCD8d02')
 address = (st.text_input("Ingrese una direccion de Ethereum:")).lower()
 
 option = st.selectbox(
