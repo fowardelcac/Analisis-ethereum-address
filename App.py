@@ -98,6 +98,7 @@ elif option == 'Obtener sus ERC20':
     st.write("-" * 100)    
     
     st.subheader("Balance por token.")
+    st.text('Contract address de prueba: 0x02752c72cf83748be5e9538c0252fcacc6325064 y sus decimales: 9')
     erc20 = (st.text_input('Ingrese un token ERC20 y obtenga el balance del usuario:')).lower()    
     decim = st.number_input('Ingrese los decimales del token:', min_value=0, max_value=21)
     if decim == 0:
