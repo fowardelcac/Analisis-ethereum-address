@@ -1,4 +1,4 @@
-from Funciones.Funciones.py import *
+from Funciones.Funciones import *
 import time
 
 st.title("Analisis de Ethereum addresses")
