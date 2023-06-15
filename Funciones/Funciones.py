@@ -2,13 +2,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from requests import get
 from datetime import datetime
-import os
-import streamlit as st
-from dotenv import load_dotenv
-load_dotenv()
 
-API_KEY = os.getenv('API_KEY')
-print(API_KEY)
+import streamlit as st
+
+
+API_KEY = 'NZXSEDDABZ6ZTB5RMRUIBDQPVE6KS6W2SY
 BASE_URL = "https://api.etherscan.io/api"
 ETHER_VALUE = 10**18
 
