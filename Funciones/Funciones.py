@@ -6,7 +6,7 @@ from datetime import datetime
 import streamlit as st
 
 
-API_KEY = 'NZXSEDDABZ6ZTB5RMRUIBDQPVE6KS6W2SY
+API_KEY='NZXSEDDABZ6ZTB5RMRUIBDQPVE6KS6W2SY'
 BASE_URL = "https://api.etherscan.io/api"
 ETHER_VALUE = 10**18
 
